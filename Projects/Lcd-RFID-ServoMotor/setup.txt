@@ -1,0 +1,23 @@
+Set up Rasberry pi and connect to:
+LCD (with i2c driver):
+  GND(Power) connect to a negative power rail
+  VCC(Power) connect to a 5v(Preferred) or a 3.3v pin
+  SDA(Data) connect to GPIO pin2 (Physical Pin 3)
+  SCL(Data) connect to GPIO pin3 (Physical Pin 5)
+RFID Module(RFID-RC522):
+  SDA(READ) connect to GPIO 10 (Physical Pin 24)
+  SCK(READ) connect to GPIO 14 (Physical Pin 23)
+  MOSI(READ) connect to GPIO 12 (Physical Pin 19)
+  MISO(READ) connect to GPIO 13 (Physical Pin 21)
+  TRO(n/a) not connected to anything
+  GND(POWER) connect to a negative power rail
+  RST(READ) connect to GPIO 6 (Physical Pin 22)
+  3.3v(POWER) connect to a 3.3v pin
+Servo Motor(28BYJ-48 5v with Driver):
+  IN1(OUT) connect to GPIO 7 (Physical Pin 7)
+  IN2(OUT) connect to GPIO 0 (Physical Pin 11)
+  IN3(OUT) connect to GPIO 2 (Physical Pin 13)
+  IN4(OUT) connect to GPIO 3 (Physical Pin 15)
+  GND(POWER)(Left pin to the right side of the other set of pin) connect to a negative power rail
+  5v(Power)(Right pin to the right side of the other set of pin) connect to a 5v pin
+  
